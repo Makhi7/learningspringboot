@@ -19,7 +19,6 @@ public class Student {
             strategy = GenerationType.SEQUENCE,
             generator =  "student_sequence"
     )
-
     //declare the fields
     private Long id;
     private String name;
